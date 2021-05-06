@@ -12,7 +12,12 @@ print(e)
 lst = [11, 100, 99, 1000, 999, 99]
 print(lst[1])
 print(lst[-1])
-print([])
+x=lst.count(99)
+print(x)
+for a in lst:
+    n=0
+    a+=n
+print(a)   
 
 y = range[2020 , 2070]
 for a in y:
