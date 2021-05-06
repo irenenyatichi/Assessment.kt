@@ -2,8 +2,12 @@ a = {6,7,8,9,10}
 b ={5,6,7,8,9}
 a.add(4)
 b.add(3)
-print(a & b)
-print(a-b)
+c=a.union(b)
+print(c)
+d=a.difference(b)
+print(d)
+e=a.intersection(b)
+print(e)
 
 lst = [11, 100, 99, 1000, 999, 99]
 print(lst[1])
